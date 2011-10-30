@@ -2,7 +2,7 @@
 #!/bin/env python
 
 """
-Node v0.5.0
+Node v0.4.12
 
 node.js install/uninstall script for WebFaction.  Will install
 code from http://nodejs.org/dist/node-v0.5.0.tar.gz. This installs
@@ -22,7 +22,7 @@ from xmlrpclib import Server
 def create(app_name, server, session_id):
 
     #define node version
-    node_version = 'node-v0.5.0'
+    node_version = 'node-v0.4.12'
 
     # initial config
     home_dir = '%s/%s' % (account['home'], username)
