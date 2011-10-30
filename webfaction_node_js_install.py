@@ -26,7 +26,7 @@ def create(app_name, server, session_id):
 
     # initial config
     home_dir = '%s/%s' % (account['home'], username)
-    app_dir = '%s' % (home_dir)
+    app_dir = '%s/webapps/%s' % (home_dir, app_name)
     bin_dir = '%s/bin' % app_dir
     src_dir = '%s/src' % app_dir
 
