@@ -5,7 +5,7 @@
 Node v0.4.12
 
 node.js install/uninstall script for WebFaction.  Will install
-code from http://nodejs.org/dist/node-v0.5.0.tar.gz. This installs
+code from http://nodejs.org/dist/node-v0.4.12.tar.gz. This installs
 node.js along with V8 engine.
 
 To test if node is working log into your account and run the server.js script.  Then create a website with with the app mounted at '/'.  Then open
