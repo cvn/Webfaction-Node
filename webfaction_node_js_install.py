@@ -2,10 +2,10 @@
 #!/bin/env python
 
 """
-Node v0.2.0
+Node v0.5.0
 
 node.js install/uninstall script for WebFaction.  Will install
-code from http://nodejs.org/dist/node-v0.2.0.tar.gz. This installs
+code from http://nodejs.org/dist/node-v0.5.0.tar.gz. This installs
 node.js along with V8 engine.
 
 To test if node is working log into your account and run the server.js script.  Then create a website with with the app mounted at '/'.  Then open
@@ -22,11 +22,11 @@ from xmlrpclib import Server
 def create(app_name, server, session_id):
 
     #define node version
-    node_version = 'node-v0.2.0'
+    node_version = 'node-v0.5.0'
 
     # initial config
     home_dir = '%s/%s' % (account['home'], username)
-    app_dir = '%s/webapps/%s' % (home_dir, app_name)
+    app_dir = '%s' % (home_dir)
     bin_dir = '%s/bin' % app_dir
     src_dir = '%s/src' % app_dir
 
